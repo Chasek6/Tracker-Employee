@@ -1,7 +1,7 @@
 
 # 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/CHASEK6/)
-## Employee Tracker
+# Employee Tracker
 
 ## Table of Contents 
   
@@ -17,7 +17,6 @@ The application uses npm Inquirer 8.2.4, console.table and MySQL2. Running 'npm 
 
 This application program can be called from the main working directory using 'node index.js'.
 npm i
-```
 ## Usage|WalkThrough video 
 Starting this program the user will be prompted to choose options from the main menu.
 
@@ -41,14 +40,18 @@ Starting this program the user will be prompted to choose options from the main 
 
 
 
-## License
+# License
 This project is licensed under the MIT license.
 
 
 
 
-## Contributing
+# Contributing
 Chase Stratton 
 https://github.com/Chasek6/Tracker-Employee
 
+
+
+## Questions
+If you have any questions about the repo, open an issue or contact [CHASEK6](undefined) directly at .
 

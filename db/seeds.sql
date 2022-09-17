@@ -1,3 +1,7 @@
+-- DROP DATABASE IF EXISTS Company_db;
+-- CREATE DATABASE Company_db;
+USE Compnay_db;
+
 INSERT INTO department (name) 
 VALUES ("AMAZON"), ("WHOLEFOODS"), ("GOOGLE"), ("MANDIANT");
 --

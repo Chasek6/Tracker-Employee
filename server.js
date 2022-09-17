@@ -93,7 +93,7 @@ const mainMenu = () => {
 // view all employees check class repo for help *note to self*
 
 const viewAllEmployees = () => {
-    db.query(orderedSelectAll, function(err, res) {
+    db.query(orderedSelectAll("employee","ASC"), function(err, res) {
         if (err) throw err;
         console.table(res);
         mainMenu();

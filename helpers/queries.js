@@ -3,7 +3,7 @@
 // not able to get the queries to work in the routes
 
 const orderedSelectAll = (table, order) => {
-    return `SELECT * FROM ${table} ORDER BY ${order}`;
+    return `SELECT * FROM ${table} ORDER BY ${order} ASC`;
     }
 
     const roleQuery = () => {

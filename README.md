@@ -18,6 +18,8 @@ The application uses npm Inquirer 8.2.4, console.table and MySQL2. Running 'npm 
 This application program can be called from the main working directory using 'node index.js'.
 npm i
 ## Usage|WalkThrough video 
+https://youtu.be/iAntc3SeQV0
+
 Starting this program the user will be prompted to choose options from the main menu.
 
 'View all Employees' that will show the user all Employees in the database , which will include their role, salaries, departments & managers. If the Manager name is Null that means the employee is the Manager.

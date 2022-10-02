@@ -360,6 +360,26 @@ const addRole = () => {
 //  remove role function
 
 const removeRole = () => {
+    db.query('SELECT * FROM role', function(err, res) {
+        if (err) throw err;
+        for (let i = 0; i < res.length; i++) {
+            roleArray.push(res[i].title);
+        }
+        inquirer.prompt({
+            type: 'list',
+            name: 'role',
+            message: 'Which role would you like to remove?',
+            choices: roleArray
+        }).then((answer) => {
+            db.query('DELETE FROM role WHERE ?', {
+                title: answer.role
+            }, function(err, res) {
+                if (err) throw err;
+                console.log('Role successfully removed!');
+                mainMenu();
+            })
+        })
+    })
 
 }
 
